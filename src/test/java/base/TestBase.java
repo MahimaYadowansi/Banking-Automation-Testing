@@ -2,12 +2,14 @@ package base;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -121,6 +123,21 @@ public class TestBase {
             seleniumLogger.info("Network Log: " + entry.getMessage());
         }
     }
+	
+	
+	public boolean isElementPresent(By by)
+	{
+		try {
+			
+			driver.findElement(by);
+			return true;
+			
+		}catch(NoSuchElementException e)
+		{
+			logger.error("Element not present");
+			return false;
+		}
+	}
 
 	@AfterSuite
 	public void teardown() {
