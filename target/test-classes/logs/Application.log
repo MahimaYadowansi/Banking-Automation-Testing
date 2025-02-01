@@ -1,0 +1,11 @@
+2025-01-31 20:15:36 INFO  TestBase:62 - Log4j2 configuration loaded successfully.
+2025-01-31 20:15:36 INFO  TestBase:70 - Config file loaded successfully.
+2025-01-31 20:15:36 INFO  TestBase:77 - OR file loaded successfully.
+2025-01-31 20:15:39 INFO  TestBase:87 - Chrome Browser Launched.
+2025-01-31 20:15:41 INFO  TestBase:104 - Navigated to: https://way2automation.com/angularjs-protractor/banking/#/login
+2025-01-31 20:15:41 INFO  TestBase:107 - Browser window maximized.
+2025-01-31 20:15:41 INFO  TestBase:111 - Implicit wait set to 10 seconds.
+2025-01-31 20:15:42 INFO  TestBase:13 - Inside BankManagerLogin
+2025-01-31 20:15:42 INFO  TestBase:17 - Login Successfull
+2025-01-31 20:15:43 INFO  TestBase:129 - Browser closed.
+2025-01-31 20:15:43 INFO  TestBase:131 - Test execution completed.
