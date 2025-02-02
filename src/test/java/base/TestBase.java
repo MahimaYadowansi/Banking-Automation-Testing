@@ -138,6 +138,9 @@ public class TestBase {
 			return false;
 		}
 	}
+	public WebDriver getDriver() {
+        return driver;
+    }
 
 	@AfterSuite
 	public void teardown() {

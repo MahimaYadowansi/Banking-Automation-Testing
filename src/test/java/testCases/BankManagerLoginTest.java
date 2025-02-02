@@ -2,6 +2,7 @@ package testCases;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import base.TestBase;
@@ -16,6 +17,7 @@ public class BankManagerLoginTest extends TestBase {
 		Assert.assertTrue(isElementPresent(By.xpath(or.getProperty("AddCustomerBtn"))),"Login not Successfull");
 		logger.info("Login Successfull");
 		
-	}
+		//to add custom message to reportng
+		Reporter.log("Login Successfull");	}
 
 }
