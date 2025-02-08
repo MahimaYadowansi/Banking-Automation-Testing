@@ -1,93 +1,93 @@
-2025-02-02 20:10:57 INFO  TestBase:64 - Log4j2 configuration loaded successfully.
-2025-02-02 20:10:57 INFO  TestBase:72 - Config file loaded successfully.
-2025-02-02 20:10:57 INFO  TestBase:79 - OR file loaded successfully.
-2025-02-02 20:11:01 INFO  TestBase:89 - Chrome Browser Launched.
-2025-02-02 20:11:02 INFO  TestBase:106 - Navigated to: https://way2automation.com/angularjs-protractor/banking/#/login
-2025-02-02 20:11:03 INFO  TestBase:109 - Browser window maximized.
-2025-02-02 20:11:03 INFO  TestBase:113 - Implicit wait set to 10 seconds.
-2025-02-02 20:11:03 INFO  CustomListeners:58 - Test suite started: Bank Manager Login
-2025-02-02 20:11:03 INFO  CustomListeners:25 - Test start: loginAsBankManager
-2025-02-02 20:11:03 INFO  TestBase:14 - Inside BankManagerLogin
-2025-02-02 20:11:04 INFO  TestBase:18 - Login Successfull
-2025-02-02 20:11:04 INFO  CustomListeners:30 - Test passed: loginAsBankManager
-2025-02-02 20:11:04 INFO  CustomListeners:63 - Test suite finished: Bank Manager Login
-2025-02-02 20:11:04 INFO  CustomListeners:58 - Test suite started: Add customer test
-2025-02-02 20:11:05 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-02-02 20:11:05 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-02-02 20:11:05 TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-2025-02-02 20:11:05 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2025-02-02 20:11:05 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2025-02-02 20:11:05 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2025-02-02 20:11:05 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2025-02-02 20:11:05 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2025-02-02 20:11:05 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2025-02-02 20:11:05 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2025-02-02 20:11:05 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2025-02-02 20:11:05 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2025-02-02 20:11:05 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2025-02-02 20:11:05 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2025-02-02 20:11:05 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2025-02-02 20:11:05 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-2025-02-02 20:11:05 TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-2025-02-02 20:11:05 TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
-2025-02-02 20:11:06 TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
-2025-02-02 20:11:06 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:12 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:12 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:12 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:18 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:18 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:18 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:24 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:24 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:24 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:29 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:29 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:29 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:35 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:35 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:35 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:41 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:41 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:41 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:47 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:47 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:47 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:53 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:53 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:53 INFO  CustomListeners:25 - Test start: addCustomer
-2025-02-02 20:11:59 INFO  TestBase:36 - Data added from excel sheet1
-2025-02-02 20:11:59 INFO  CustomListeners:30 - Test passed: addCustomer
-2025-02-02 20:11:59 INFO  CustomListeners:63 - Test suite finished: Add customer test
-2025-02-02 20:11:59 INFO  TestBase:149 - Browser closed.
-2025-02-02 20:11:59 INFO  TestBase:151 - Test execution completed.
+2025-02-08 19:45:38 INFO  TestBase:64 - Log4j2 configuration loaded successfully.
+2025-02-08 19:45:38 INFO  TestBase:72 - Config file loaded successfully.
+2025-02-08 19:45:38 INFO  TestBase:79 - OR file loaded successfully.
+2025-02-08 19:45:42 INFO  TestBase:95 - Chrome Browser Launched.
+2025-02-08 19:45:43 INFO  TestBase:113 - Navigated to: https://way2automation.com/angularjs-protractor/banking/#/login
+2025-02-08 19:45:43 INFO  TestBase:117 - Browser window maximized.
+2025-02-08 19:45:43 INFO  TestBase:123 - Implicit wait set to 10 seconds.
+2025-02-08 19:45:44 INFO  CustomListeners:87 - Test suite started: Bank Manager Login
+2025-02-08 19:45:44 INFO  CustomListeners:38 - Test start: loginAsBankManager
+2025-02-08 19:45:44 INFO  TestBase:20 - Inside BankManagerLogin
+2025-02-08 19:45:44 INFO  TestBase:24 - Login Successfull
+2025-02-08 19:45:44 INFO  CustomListeners:43 - Test passed: loginAsBankManager
+2025-02-08 19:45:44 INFO  CustomListeners:92 - Test suite finished: Bank Manager Login
+2025-02-08 19:45:45 INFO  CustomListeners:87 - Test suite started: Add customer test
+2025-02-08 19:45:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-08 19:45:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-02-08 19:45:46 TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-02-08 19:45:46 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-02-08 19:45:46 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-02-08 19:45:46 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-02-08 19:45:46 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-02-08 19:45:46 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-02-08 19:45:46 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-02-08 19:45:46 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-02-08 19:45:46 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-02-08 19:45:46 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-02-08 19:45:46 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-02-08 19:45:46 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-02-08 19:45:46 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-02-08 19:45:46 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-02-08 19:45:46 TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-02-08 19:45:46 TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-02-08 19:45:47 TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-02-08 19:45:47 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:49 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:49 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:49 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:50 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:50 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:50 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:50 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:50 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:51 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:51 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:51 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:51 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:53 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:53 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:53 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:54 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:54 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:54 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:55 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:55 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:55 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:57 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:57 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:57 INFO  CustomListeners:38 - Test start: addCustomer
+2025-02-08 19:45:58 INFO  TestBase:67 - Data added from excel sheet1
+2025-02-08 19:45:58 INFO  CustomListeners:43 - Test passed: addCustomer
+2025-02-08 19:45:58 INFO  CustomListeners:92 - Test suite finished: Add customer test
+2025-02-08 19:45:59 INFO  TestBase:175 - Browser closed.
+2025-02-08 19:45:59 INFO  TestBase:178 - Test execution completed.

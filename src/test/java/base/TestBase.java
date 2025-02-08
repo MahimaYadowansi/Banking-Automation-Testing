@@ -13,7 +13,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.devtools.v129.log.model.LogEntry;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -26,6 +25,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ExtentManager;
@@ -39,7 +39,7 @@ public class TestBase {
 	// public static ExcelReader excel=new
 	// ExcelReader(System.getProperty("user.dir")+"\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
-	public ExtentReports report = ExtentManager.getInstance();
+	public ExtentReports extent = ExtentManager.getInstance();
 	public static ExtentTest test;
 
 
@@ -79,6 +79,11 @@ public class TestBase {
 			logger.info("OR file loaded successfully.");
 
 		}
+		
+		
+		// Initialize ExtentTest
+		test = extent.createTest("Data Driven Automation Base Test", "Run Base tests");
+		
 
 		// Select Browser and configure performance logging
         if (config.getProperty("browser").equals("chrome")) {
@@ -86,6 +91,7 @@ public class TestBase {
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.setCapability("goog:loggingPrefs", java.util.Collections.singletonMap(LogType.PERFORMANCE, "ALL"));
             driver = new ChromeDriver(chromeOptions);
+          test.log(Status.INFO,"Chrome browser opened");
             logger.info("Chrome Browser Launched.");
         } else if (config.getProperty("browser").equals("firefox")) {
             WebDriverManager.firefoxdriver().setup();
@@ -103,15 +109,19 @@ public class TestBase {
 
         // Open URL
         driver.get(config.getProperty("testsiteurl"));
+      test.log(Status.INFO, "Navigated to: " + config.getProperty("testsiteurl"));  //extent report
         logger.info("Navigated to: " + config.getProperty("testsiteurl"));
+        
 
         driver.manage().window().maximize();
         logger.info("Browser window maximized.");
+      test.log(Status.INFO, "Browser window maximized.");
+
 
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("Implicit.wait")),
                 TimeUnit.SECONDS);
         logger.info("Implicit wait set to " + config.getProperty("Implicit.wait") + " seconds.");
-
+     test.log(Status.INFO, "Implicit wait set to " + config.getProperty("Implicit.wait") + " seconds.");
         // Capture Network Logs (Requests and Responses)
         captureNetworkLogs();
     }
@@ -130,24 +140,43 @@ public class TestBase {
 		try {
 			
 			driver.findElement(by);
+			test.log(Status.PASS, "Element is present: " + by.toString());
 			return true;
 			
 		}catch(NoSuchElementException e)
 		{
 			logger.error("Element not present");
+		 test.log(Status.FAIL, "Element not found: " + by.toString());
 			return false;
 		}
 	}
 	public WebDriver getDriver() {
         return driver;
     }
+	
+	
+	/*//  Add this only when[ ExtentManager.createTest(testName, description);] is not added in customListeners.
+	@BeforeMethod
+    public void createTest() {
+        // Create a new test instance in Extent Report for each test method
+        String testName = this.getClass().getSimpleName();
+        String description = "Test execution for " + testName;
+        // Create and initialize test in Extent Report
+        ExtentManager.createTest(testName, description);
+        logger.info("Test started: " + testName);
+    }
+	*/
+	
 
 	@AfterSuite
 	public void teardown() {
-		if (driver != null) {
-			driver.quit();
-			logger.info("Browser closed.");
-		}
-		logger.info("Test execution completed.");
+		 if (driver != null) {
+	            driver.quit();
+	            logger.info("Browser closed.");
+	        }
+	        ExtentManager.getInstance().flush(); // Generate the Extent report after all tests finish
+	        logger.info("Test execution completed.");
+	    }
+
+	   
 	}
-}
