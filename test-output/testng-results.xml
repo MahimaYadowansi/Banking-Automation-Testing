@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Login Successfull]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-08T19:45:44 IST" name="DataDrivenAutomtion" finished-at="2025-02-08T19:45:58 IST" duration-ms="14128">
+  <suite started-at="2025-02-09T13:12:58 IST" name="DataDrivenAutomtion" finished-at="2025-02-09T13:13:15 IST" duration-ms="16963">
     <groups>
     </groups>
-    <test started-at="2025-02-08T19:45:44 IST" name="Bank Manager Login" finished-at="2025-02-08T19:45:44 IST" duration-ms="490">
+    <test started-at="2025-02-09T13:12:58 IST" name="Bank Manager Login" finished-at="2025-02-09T13:12:58 IST" duration-ms="409">
       <class name="testCases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:testCases.BankManagerLoginTest@4648ce9]" started-at="2025-02-08T19:45:44 IST" name="loginAsBankManager" description="Bank Manager Login functionality" finished-at="2025-02-08T19:45:44 IST" duration-ms="379" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:testCases.BankManagerLoginTest@569bf9eb]" started-at="2025-02-09T13:12:58 IST" name="loginAsBankManager" description="Bank Manager Login functionality" finished-at="2025-02-09T13:12:58 IST" duration-ms="302" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Successfull]]>
@@ -19,13 +19,9 @@
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- testCases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login -->
-    <test started-at="2025-02-08T19:45:45 IST" name="Add customer test" finished-at="2025-02-08T19:45:58 IST" duration-ms="12556">
+    <test started-at="2025-02-09T13:12:59 IST" name="Add customer test" finished-at="2025-02-09T13:13:12 IST" duration-ms="12602">
       <class name="testCases.AddCustomerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:38 IST" name="setup" finished-at="2025-02-08T19:45:44 IST" duration-ms="6166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:47 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:49 IST" duration-ms="1723" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:02 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:03 IST" duration-ms="1460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:49 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:50 IST" duration-ms="865" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:03 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:04 IST" duration-ms="877" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:50 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:50 IST" duration-ms="948" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:04 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:05 IST" duration-ms="887" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:51 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:51 IST" duration-ms="839" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:05 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:07 IST" duration-ms="1505" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:51 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:53 IST" duration-ms="1145" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:07 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:08 IST" duration-ms="1335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:53 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:54 IST" duration-ms="1318" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:08 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:09 IST" duration-ms="1241" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:54 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:55 IST" duration-ms="1327" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:09 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:10 IST" duration-ms="1032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -172,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:55 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:57 IST" duration-ms="1418" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:10 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:11 IST" duration-ms="912" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:57 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-08T19:45:58 IST" duration-ms="1237" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@52500920]" started-at="2025-02-09T13:13:11 IST" name="addCustomer" description="Verify Customer Adding functionality" data-provider="addCustomer" finished-at="2025-02-09T13:13:12 IST" duration-ms="949" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -214,11 +210,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.AddCustomerTest@3d8bbcdc]" started-at="2025-02-08T19:45:58 IST" name="teardown" finished-at="2025-02-08T19:45:59 IST" duration-ms="590" status="PASS">
+      </class> <!-- testCases.AddCustomerTest -->
+    </test> <!-- Add customer test -->
+    <test started-at="2025-02-09T13:13:12 IST" name="Open Customer account" finished-at="2025-02-09T13:13:14 IST" duration-ms="1626">
+      <class name="testCases.OpenAccountTest">
+        <test-method signature="openAccount()[pri:0, instance:testCases.OpenAccountTest@f9d87b]" started-at="2025-02-09T13:13:12 IST" name="openAccount" finished-at="2025-02-09T13:13:14 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+      </class> <!-- testCases.OpenAccountTest -->
+    </test> <!-- Open Customer account -->
+    <test started-at="2025-02-09T13:13:14 IST" name="Search Customer account" finished-at="2025-02-09T13:13:15 IST" duration-ms="659">
+      <class name="testCases.SearchCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.SearchCustomerTest@35beb15e]" started-at="2025-02-09T13:12:49 IST" name="setup" finished-at="2025-02-09T13:12:58 IST" duration-ms="9263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="serachCustomer()[pri:0, instance:testCases.SearchCustomerTest@35beb15e]" started-at="2025-02-09T13:13:14 IST" name="serachCustomer" finished-at="2025-02-09T13:13:15 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachCustomer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.SearchCustomerTest@35beb15e]" started-at="2025-02-09T13:13:15 IST" name="teardown" finished-at="2025-02-09T13:13:15 IST" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.AddCustomerTest -->
-    </test> <!-- Add customer test -->
+      </class> <!-- testCases.SearchCustomerTest -->
+    </test> <!-- Search Customer account -->
   </suite> <!-- DataDrivenAutomtion -->
 </testng-results>

@@ -19,7 +19,7 @@ import com.aventstack.extentreports.Status;
 
 import base.TestBase;
 
-public class CustomListeners implements ITestListener {
+public class CustomListeners extends TestBase implements ITestListener {
 	 private WebDriver driver;
 	 public ExtentReports extent = ExtentManager.getInstance();
 		//public static ExtentTest test;
@@ -92,8 +92,8 @@ public class CustomListeners implements ITestListener {
 	    	 logger.info("Test suite finished: " + context.getName());
 	    	 ExtentManager.getInstance().flush();
 	    }
-	    
-	 // Method to take screenshot
+	/*    
+	 // Method to take screenshot(already added in base class)
 	    public String takeScreenshot(String testName) {
 	        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	        String screenshotPath = System.getProperty("user.dir") + "/screenshots/" + testName + ".png";
@@ -106,7 +106,7 @@ public class CustomListeners implements ITestListener {
 	        }
 	        return screenshotPath;
 	    }
-	
+	*/
 
 	    
 }

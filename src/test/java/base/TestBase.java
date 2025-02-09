@@ -1,15 +1,19 @@
 package base;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -166,6 +170,23 @@ public class TestBase {
         logger.info("Test started: " + testName);
     }
 	*/
+	
+	 // Method to take screenshot
+    public String takeScreenshot(String testName) {
+        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        String screenshotPath = System.getProperty("user.dir") + "/screenshots/" + testName + ".png";
+
+        try {
+            FileUtils.copyFile(srcFile, new File(screenshotPath));
+            logger.info("Screenshot saved: " + screenshotPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return screenshotPath;
+    }
+	
+	
+	
 	
 
 	@AfterSuite

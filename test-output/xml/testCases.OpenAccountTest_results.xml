@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Bank Manager Login"
+<testsuite name="Open Customer account"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.302">
+           time="1.606">
   <properties />
   
   
-            <testcase name="loginAsBankManager" time="0.302" classname="testCases.BankManagerLoginTest" />
+            <testcase name="openAccount" time="1.606" classname="testCases.OpenAccountTest" />
       
 </testsuite>

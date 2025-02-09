@@ -16,4 +16,17 @@
       <class name="testCases.AddCustomerTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Open Customer account">
+    <classes>
+      <class name="testCases.OpenAccountTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Search Customer account">
+    <classes>
+      <class name="testCases.SearchCustomerTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
 </suite> <!-- Suite -->

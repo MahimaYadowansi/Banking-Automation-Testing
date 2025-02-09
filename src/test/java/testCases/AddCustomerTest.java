@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -30,7 +31,7 @@ public class AddCustomerTest extends TestBase{
 			
 			
 			
-		driver.findElement(By.xpath(or.getProperty("AddCustomerBtn"))).click();
+			driver.findElement(By.xpath(or.getProperty("AddCustomerBtn"))).click();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		driver.findElement(By.xpath(or.getProperty("FirstName"))).sendKeys(FirstName);
 		driver.findElement(By.xpath(or.getProperty("LastName"))).sendKeys(LastName);
@@ -38,14 +39,15 @@ public class AddCustomerTest extends TestBase{
 		
 		
 		try {
-		driver.findElement(By.xpath(or.getProperty("AddCustomerBtnClick"))).click();
-		}catch(Exception e)
-		{
-			ExtentManager.getTest().fail("Can't click Add to customer button, Customer not added");
-			 Assert.fail("Test failed: Unable to click Add Customer button");
+			driver.findElement(By.xpath(or.getProperty("AddCustomerBtnClick"))).click();
+			}catch(Exception e)
+			{
+				ExtentManager.getTest().fail("Can't click Add to customer button, Customer not added");
+				 Assert.fail("Test failed: Unable to click Add Customer button");
+				
+	            return;  // Skip further execution
+			}
 			
-            return;  // Skip further execution
-		}
 		
 		// Validate alert presence
         Alert alert;
@@ -60,7 +62,7 @@ public class AddCustomerTest extends TestBase{
         	
         	
         	 ExtentManager.getTest().fail("No alert displayed, customer not added!");
-        	 Assert.fail("Test failed: No alert displayed, customer not added");
+        	 
             throw e;
         }
 
@@ -69,9 +71,15 @@ public class AddCustomerTest extends TestBase{
 
     catch(Exception e) {
     	
-    	ExtentManager.getTest().fail("Test Failed: " + e.getMessage());
-    	 Assert.fail("Test execution failed: " + e.getMessage());
-    	
+    	 //  Call takeScreenshot() from TestBase
+        String screenshotPath = takeScreenshot("AddCustomerFailure");
+        
+        //  Log Failure in Extent Report with Screenshot
+        ExtentManager.getTest().fail("Test Failed: " + e.getMessage(),
+            com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+
+        // Fail the test immediately
+        Assert.fail("Test execution failed: " + e.getMessage());
     }
     
 	

@@ -4,18 +4,18 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.820">
+           time="10.198">
   <properties />
   
   
-            <testcase name="addCustomer" time="1.723" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="1.145" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="1.237" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.839" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="1.318" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="1.418" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.948" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.865" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="1.327" classname="testCases.AddCustomerTest" />
+            <testcase name="addCustomer" time="0.887" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="1.241" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.912" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.949" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="1.460" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.877" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="1.335" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="1.505" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomer" time="1.032" classname="testCases.AddCustomerTest" />
       
 </testsuite>
